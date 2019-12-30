@@ -14,9 +14,9 @@ steps:
   inputs:
     deploymentScope: 'Resource Group'
     ConnectedServiceName: 'AzureRmPipeline-conn'
-    subscriptionName: '[EnterTheTargetSubscriptionID]'
+    subscriptionName: 'Visual Studio Enterprise'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: '[EnterANewResourceGroupName]'
+    resourceGroupName: 'AzureRmPipeline-rg'
     location: 'Central US'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateAzureStorage/azuredeploy.json'
